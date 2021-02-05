@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  background-color: $palette-mint-cream;
+  font-family: 'PoppinsRegular';
+}
+
+@font-face {
+  font-family: PoppinsBlack;
+  src: url('../../fonts/Poppins-Black.ttf');
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url('../../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: PoppinsMedium;
+  src: url('../../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url('../../fonts/Poppins-Regular.ttf');
+}
+
+.text-black {
+  font-family: PoppinsBlack;
+  font-size: 3rem;
+  color: $palette-capri;
+}
+
+.text-bold {
+  font-family: PoppinsBold;
+  font-size: 2rem;
+  color: $palette-sapphire;
+}
+
+.text-medium {
+  font-family: PoppinsMedium;
+  font-size: 1.5rem;
+}
+
+.text-error {
+  font-family: PoppinsMedium;
+  font-size: 1rem;
+  color: $primary-red;
+}

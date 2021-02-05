@@ -1,0 +1,35 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+
+  .card {
+    width: 50%;
+    display: flex;
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 50%;
+      border-right: 1px solid $palette-capri;
+      padding: 0 1rem;
+    }
+    .btn {
+      margin: 1rem auto;
+      text-align: center;
+    }
+    form {
+      padding: 0 1rem;
+      width: 50%;
+    }
+  }
+
+  h1,
+  p {
+    margin: 0;
+  }
+}

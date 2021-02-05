@@ -1,0 +1,11 @@
+.input {
+  border-radius: 30px;
+  border: 1px solid $secondary-grey-semilight;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  &:active,
+  &:focus {
+    outline: none;
+    border: 1px solid $palette-capri;
+  }
+}

@@ -1,0 +1,22 @@
+.btn {
+  border-radius: 20px;
+  background-color: $palette-capri;
+  border: none;
+  padding: 0.5rem 2rem;
+  color: white;
+  width: fit-content;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: $palette-sapphire;
+    transform: translateY(-5px);
+    box-shadow: 0.25rem 0.25rem 0.25rem $secondary-grey-semilight;
+  }
+  &:active {
+    background-color: $palette-capri;
+    transform: translateY(0px);
+    box-shadow: none;
+  }
+}

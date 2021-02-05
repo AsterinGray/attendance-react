@@ -1,0 +1,36 @@
+nav {
+  width: 18vw;
+  box-sizing: border-box;
+  background-color: $palette-mimosa;
+  box-shadow: $box-shadow;
+  height: 100vh;
+  padding: 1rem 0;
+  position: sticky;
+  left: 0;
+  top: 0;
+  a {
+    text-decoration: none;
+    color: $primary-dark;
+  }
+  p,
+  h1 {
+    padding: 0.5rem 0;
+    margin: 0;
+    text-align: center;
+    line-height: 3rem;
+  }
+  ul {
+    height: 60vh;
+    li {
+      list-style: none;
+      margin: 1rem 0;
+      cursor: pointer;
+      &:hover {
+        color: $primary-grey-light;
+      }
+    }
+  }
+  footer {
+    text-align: center;
+  }
+}
